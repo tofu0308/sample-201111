@@ -1,0 +1,40 @@
+{
+  "name": "sample-202110",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tofu0308/sample-202110.git",
+  "author": "takeshi.fujii <isisaka3000@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r esm index.js",
+    "babel": "babel src -x '.ts,.tsx' -d views",
+    "build": "webpack --mode development"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.16.0",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@typescript-eslint/parser": "^5.3.0",
+    "babel-loader": "^8.2.3",
+    "core-js": "3",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "typescript": "^4.4.4",
+    "webpack": "4.5.0",
+    "webpack-cli": "3.3.10"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
